@@ -218,10 +218,13 @@
                
                [websrvgrp]
                web01
+                
                [appsrvgrp]
                app01
+                
                [rmqsrvgrp]
                rmq01
+                
                [mcsrvgrp]
                mc01
                [dbsrvgrp]
@@ -235,6 +238,8 @@
                rmqsrvgrp
                mcsrvgrp
                dbsrvgrp
+                
+                
                [stack_inst:vars]
                ansible_user=ubuntu
                ansible_ssh_private_key_file=loginkey_vpro.pem
